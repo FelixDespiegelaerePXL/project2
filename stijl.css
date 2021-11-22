@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 812px;
+    height: 812px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+}
+
+.pokenumber {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.type_grass{
+    background-color: lime;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+
+}
+.type_poison {
+    background-color: purple;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+
+}
+.type_fire {
+    background-color: orange;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+
+}
+.type_flying {
+    background-color: lightblue;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+article {
+    width: 260px;
+    height: 90px;
+    float: left;
+    margin: 5px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+h1 {
+    color: #4078c0;
+
+    margin-top: 0;
+}
